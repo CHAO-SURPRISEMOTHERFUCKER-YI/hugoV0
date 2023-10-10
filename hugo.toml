@@ -1,5 +1,5 @@
 baseURL = 'https://chao-surprisemotherfucker-yi.github.io/hugoV0/'
-languageCode = 'es'
+languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'relearn'
 
@@ -53,7 +53,7 @@ home = [ "HTML"]
 
 
 
-defaultContentLanguage = 'es'
+defaultContentLanguage = 'en'
 
 [languages]
 
@@ -62,14 +62,14 @@ defaultContentLanguage = 'es'
 
     title = "Español"
     languageName = "Español"
-    weight = 1
+    weight = 2
     contentDir= "content/es/"
 
   [languages.en]
   
     title = "English"
     languageName = "English"
-    weight = 2
+    weight = 1
     contentDir= "content/en/"
 
   [languages.fr]
