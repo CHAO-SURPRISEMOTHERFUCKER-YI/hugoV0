@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Desarrollo Web en Entorno Servidor on Español</title>
+    <link>https://chao-surprisemotherfucker-yi.github.io/hugoV0/es/servidor/index.html</link>
+    <description>Recent content in Desarrollo Web en Entorno Servidor on Español</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Tue, 19 Sep 2023 11:03:02 +0200</lastBuildDate><atom:link href="https://chao-surprisemotherfucker-yi.github.io/hugoV0/es/servidor/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Shortcodes</title>
+      <link>https://chao-surprisemotherfucker-yi.github.io/hugoV0/es/servidor/shortcodes/index.html</link>
+      <pubDate>Mon, 25 Sep 2023 10:30:07 +0200</pubDate>
+      <guid>https://chao-surprisemotherfucker-yi.github.io/hugoV0/es/servidor/shortcodes/index.html</guid>
+      <description>Attachments Badge Button Children Expand Highlight Icon Include Math Mermaid Notice SiteParam Tab Tabs 1. Attachments Los &amp;ldquo;attachments&amp;rdquo; Sirve principalmente para mostrar una lista de ficheros que nos dirige a otra página. Para ello de debe crear una carpeta específica a mismo nivel que el &amp;ldquo;_index.md&amp;rdquo; de la página que nos interesa con el nombre de &amp;ldquo;_index.files&amp;rdquo;. Pero para páginas sueltas, podemos crear un fichero con el mismo nonbre y que acabe en &amp;ldquo;.</description>
+    </item>
+    <item>
+      <title>Markdown</title>
+      <link>https://chao-surprisemotherfucker-yi.github.io/hugoV0/es/servidor/markdown/index.html</link>
+      <pubDate>Tue, 19 Sep 2023 11:07:47 +0200</pubDate>
+      <guid>https://chao-surprisemotherfucker-yi.github.io/hugoV0/es/servidor/markdown/index.html</guid>
+      <description>El markdown es un lenguaje de marca sencillo que sirve para añadir un formato con facilidad en una pagina web
+Formatos de Texto Formato Comando Resultado Negrita ** ** Pone el texto en negrita. Cursiva _ _ Pone el texto en cursiva. Tachado ~~ ~~ Tacha el texto. Formatos de Lista Formato Comando Comentario Viñetas - Se enlista con puntos. Numerdas 1. 2. 3. 1. Un número seguido de un punto.</description>
+    </item>
+    <item>
+      <title>Hugo</title>
+      <link>https://chao-surprisemotherfucker-yi.github.io/hugoV0/es/servidor/hugo/index.html</link>
+      <pubDate>Tue, 19 Sep 2023 11:07:21 +0200</pubDate>
+      <guid>https://chao-surprisemotherfucker-yi.github.io/hugoV0/es/servidor/hugo/index.html</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

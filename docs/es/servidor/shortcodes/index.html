@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.119.0">
+    <meta name="generator" content="Relearn 5.22.1+tip">
+    <meta name="description" content="">
+    <title>Shortcodes :: Español</title>
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="/hugoV0/css/fontawesome-all.min.css?1696921811" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/hugoV0/css/fontawesome-all.min.css?1696921811" rel="stylesheet"></noscript>
+    <link href="/hugoV0/css/nucleus.css?1696921811" rel="stylesheet">
+    <link href="/hugoV0/css/auto-complete.css?1696921811" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/hugoV0/css/auto-complete.css?1696921811" rel="stylesheet"></noscript>
+    <link href="/hugoV0/css/perfect-scrollbar.min.css?1696921811" rel="stylesheet">
+    <link href="/hugoV0/css/fonts.css?1696921811" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/hugoV0/css/fonts.css?1696921811" rel="stylesheet"></noscript>
+    <link href="/hugoV0/css/theme.css?1696921811" rel="stylesheet">
+    <link href="/hugoV0/css/theme-relearn-light.css?1696921811" rel="stylesheet" id="R-variant-style">
+    <link href="/hugoV0/css/variant.css?1696921811" rel="stylesheet">
+    <link href="/hugoV0/css/print.css?1696921811" rel="stylesheet" media="print">
+    <link href="/hugoV0/css/ie.css?1696921811" rel="stylesheet">
+    <script src="/hugoV0/js/url.js?1696921811"></script>
+    <script src="/hugoV0/js/variant.js?1696921811"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      var root_url="/";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = 'Copiar en el portapapeles';
+      window.T_Copied_to_clipboard = '¡Copiado al portapapeles!';
+      window.T_Copy_link_to_clipboard = 'Copiar enlace al portapapeles';
+      window.T_Link_copied_to_clipboard = '¡Enlace copiado al portapapeles!';
+      window.T_Reset_view = 'Restablecer vista';
+      window.T_View_reset = '¡Ver reajuste!';
+      window.T_No_results_found = 'No se han encontrado resultados para \u0022{0}\u0022';
+      window.T_N_results_found = '{1} resultados encontrados para \u0022{0}\u0022';
+      // some further base stuff
+      var baseUriFull='https:\/\/chao-surprisemotherfucker-yi.github.io\/hugoV0/';
+      window.variants && variants.init( [ 'relearn-light', 'relearn-dark' ] );
+    </script>
+  </head>
+  <body class="mobile-support html" data-url="/hugoV0/es/servidor/shortcodes/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide">
+              <button class="topbar-control" onclick="toggleNav()" type="button" title="Menú (CTRL&#43;ALT&#43;n)">
+                <i class="fa-fw fas fa-bars"></i>
+              </button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show">
+              <button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Tabla de contenido (CTRL&#43;ALT&#43;t)">
+                <i class="fa-fw fas fa-list-alt"></i>
+              </button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper"><nav class="TableOfContents">
+  <ul>
+    <li><a href="#1-attachments">1. Attachments</a></li>
+    <li><a href="#2-badge">2. Badge</a></li>
+    <li><a href="#3-button">3. Button</a></li>
+    <li><a href="#4-children">4. Children</a></li>
+    <li><a href="#5-expand">5. Expand</a></li>
+    <li><a href="#6-highlight">6. Highlight</a></li>
+    <li><a href="#7-icon">7. Icon</a></li>
+    <li><a href="#8-include">8. Include</a></li>
+    <li><a href="#9-math">9. Math</a></li>
+    <li><a href="#10-mermaid">10. Mermaid</a></li>
+    <li><a href="#11-notice">11. Notice</a></li>
+    <li><a href="#12-siteparam">12 SiteParam</a></li>
+    <li><a href="#13-tab">13. Tab</a></li>
+    <li><a href="#14-tabs">14. Tabs</a></li>
+  </ul>
+</nav>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/hugoV0/es/index.html"><span itemprop="name">Español</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/hugoV0/es/servidor/index.html"><span itemprop="name">Desarrollo Web en Entorno Servidor</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Shortcodes</span><meta itemprop="position" content="3"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-edit" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show">
+              <a class="topbar-control" href="http://localhostServidor/shortcodes.md" target="_blank" title="Editar (CTRL&#43;ALT&#43;w)">
+                <i class="fa-fw fas fa-pen"></i>
+              </a>
+            </div>
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show">
+              <a class="topbar-control" href="/hugoV0/es/servidor/index.html" title="Desarrollo Web en Entorno Servidor (🡐)">
+                <i class="fa-fw fas fa-chevron-left"></i>
+              </a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show">
+              <a class="topbar-control" href="/hugoV0/es/servidor/markdown/index.html" title="Markdown (🡒)">
+                <i class="fa-fw fas fa-chevron-right"></i>
+              </a>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show">
+              <button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Más">
+                <i class="fa-fw fas fa-ellipsis-v"></i>
+              </button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="shortcodes">Shortcodes</h1>
+
+<ol>
+<li><a href="#1-attachments">Attachments</a></li>
+<li><a href="#2-badge">Badge</a></li>
+<li><a href="#3-button">Button</a></li>
+<li><a href="#4-children">Children</a></li>
+<li><a href="#5-expand">Expand</a></li>
+<li><a href="#6-highlight">Highlight</a></li>
+<li><a href="#7-icon">Icon</a></li>
+<li><a href="#8-include">Include</a></li>
+<li><a href="#9-math">Math</a></li>
+<li><a href="#10-mermaid">Mermaid</a></li>
+<li><a href="#11-notice">Notice</a></li>
+<li><a href="#12-siteparam">SiteParam</a></li>
+<li><a href="#13-tab">Tab</a></li>
+<li><a href="#14-tabs">Tabs</a></li>
+</ol>
+<h2 id="1-attachments">1. Attachments</h2>
+<p>Los &ldquo;attachments&rdquo; Sirve principalmente para mostrar una lista de ficheros que nos dirige a otra página.
+Para ello de debe crear una carpeta específica a mismo nivel que el &ldquo;_index.md&rdquo; de la página que nos interesa con el nombre de &ldquo;_index.files&rdquo;. Pero para páginas sueltas, podemos crear un fichero con el mismo nonbre y que acabe en &ldquo;.files&rdquo;.</p>
+<p>Es importante que si existe diferentes ficheros para los posibles diferentes lenguajes que este traducido la página hay que añadir entre el nombre y la extension la abreviación de cada idioma. Por ejemplo, en inglés sería &ldquo;_index.en.files&rdquo; o que en español sería &ldquo;_index.en.file&rdquo; o que en chino &ldquo;_index.cn.files&rdquo;.</p>
+<p>Se puede mostrar los ficheros de dos formas:</p>
+<ul>
+<li>
+<p>De forma personalizada, eligiendo que formatos son admitido y en que orden sean mostrados.</p>
+</li>
+<li>
+<p>Y la otra forma es mostrar todos los ficheros en un recuadro personalizables de forma ordenada alfabeticamente</p>
+</li>
+</ul>
+<p>Se puede personalizar el encuadre con los siguientes parámetros:</p>
+<ul>
+<li><strong>style</strong>, para mostrar un estilo predefinido</li>
+<li><strong>color</strong>, para cambiar el color que se muestra</li>
+<li><strong>title</strong>, el texto de la cabecera</li>
+<li><strong>icon</strong>, un pequeño icono a la izquierda del título</li>
+</ul>
+<p>Por ejemplo:</p>
+<h2 id="2-badge">2. Badge</h2>
+<p>Usar badge nos muestra un pequeño marcado personalizable, con un determinador color, un determinado título y opcionalmente un icono en cualquier parte de la web, como en mitad de un parrafo para remarcas algun dato importante. Generalmente sirve para dar una pequeña información o simplemte de decoración.</p>
+<table>
+<thead>
+<tr>
+<th>Formato</th>
+<th>Comando</th>
+<th>Resultado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Negrita</td>
+<td><code>** **</code></td>
+<td><strong>Pone el texto en negrita.</strong></td>
+</tr>
+<tr>
+<td>Cursiva</td>
+<td><code>_ _</code></td>
+<td><em>Pone el texto en cursiva.</em></td>
+</tr>
+<tr>
+<td>Tachado</td>
+<td><code>~~ ~~</code></td>
+<td><del>Tacha el texto.</del></td>
+</tr>
+</tbody>
+</table>
+<h2 id="3-button">3. Button</h2>
+<p>Simplemente muestra un botón clickeable que puede usarse de varias formas como:</p>
+<ul>
+<li>Referenciar a un apartado de la misma página</li>
+<li>Mandarte a un link externo</li>
+<li>Mostrar información</li>
+<li>Descargar achivos</li>
+<li>Y muchos más opciones</li>
+</ul>
+<p>El Button posee varios parametro que podemos cambio o/y añadir.</p>
+<table>
+<thead>
+<tr>
+<th>Nombre</th>
+<th>Comando</th>
+<th>Resultado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>href</td>
+<td><code>** **</code></td>
+<td><strong>Pone el texto en negrita.</strong></td>
+</tr>
+<tr>
+<td>style</td>
+<td><code>_ _</code></td>
+<td><em>Pone el texto en cursiva.</em></td>
+</tr>
+<tr>
+<td>color</td>
+<td><code>~~ ~~</code></td>
+<td><del>Tacha el texto.</del></td>
+</tr>
+<tr>
+<td>icon</td>
+<td><code>** **</code></td>
+<td><strong>Pone el texto en negrita.</strong></td>
+</tr>
+<tr>
+<td>iconposition</td>
+<td><code>_ _</code></td>
+<td><em>Pone el texto en cursiva.</em></td>
+</tr>
+<tr>
+<td>target</td>
+<td><code>~~ ~~</code></td>
+<td><del>Tacha el texto.</del></td>
+</tr>
+<tr>
+<td>type</td>
+<td><code>~~ ~~</code></td>
+<td><del>Tacha el texto.</del></td>
+</tr>
+</tbody>
+</table>
+<h2 id="4-children">4. Children</h2>
+<p>El Children es una shortcode que sirve para mostrar en una lista, las páginas hijos de la página actual.</p>
+
+<ul class="children children-li children-sort-">
+	
+</ul>
+<h2 id="5-expand">5. Expand</h2>
+<p>El Expand, como lo dice el nombre, sirve para expandir o colapsar una sección de texto y es posible que en algunos dispositivos más antiguos no funcione correctamente.</p>
+<p>La sección puede estar ya expandida si se añade <code>open=&quot;true&quot;</code> después del título. También es posible contener todo tipo de textos, ya sean tablas, listas, bloques de código&hellip; etc.</p>
+<h2 id="6-highlight">6. Highlight</h2>
+<p>Sirve principalmente para resaltar un parte de un bloque de código. En el fichero hugo.toml se puede configurar parámetros del shortcode &ldquo;hightlight&rdquo; detro de [markup] &ndash;&gt; [markup.highlight]</p>
+<p>Es recomendable dejar el parámetro de &ldquo;lineNumbersInTable&rdquo; es false cuando se quiera usar este shortcode, ya que puede descuadrar las líneas.</p>
+<h2 id="7-icon">7. Icon</h2>
+<p>Icon muestra emoticonos de la librería</p>
+<h2 id="8-include">8. Include</h2>
+<h2 id="9-math">9. Math</h2>
+<h2 id="10-mermaid">10. Mermaid</h2>
+<p>EL Mermaid genera una diagrama de flujo con los textos usando la libreria de Mermaid. Se recomiendo usar generalmente con un bloque de código en vez de por shortcode por temas de compatibilidad.</p>
+
+<pre class="mermaid align-center">graph LR;
+    Hugo --&gt; Blog
+    Blog --&gt; Content
+    Content --&gt; Servidor
+    Servidor --&gt; Shortcodes</pre><h2 id="11-notice">11. Notice</h2>
+<h2 id="12-siteparam">12 SiteParam</h2>
+<h2 id="13-tab">13. Tab</h2>
+<h2 id="14-tabs">14. Tabs</h2>
+
+            <footer class="footline">
+            </footer>
+          </article>
+        </div>
+      </main>
+    </div>
+    <aside id="R-sidebar" class="default-animation">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <div id="R-header" class="default-animation">
+
+<svg src="./static/images/Logo_of_Twitter.svg" ></svg>
+        </div>
+        <div class="searchbox default-animation">
+          <i class="fas fa-search" title="Buscar (CTRL+ALT+f)"></i>
+          <label class="a11y-only" for="R-search-by">Buscar</label>
+          <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="Buscar...">
+          <button class="search-clear" type="button" data-search-clear="" title="Borrar búsqueda"><i class="fas fa-times" title="Borrar búsqueda"></i></button>
+        </div>
+        <script>
+          var contentLangs=['es'];
+        </script>
+        <script src="/hugoV0/js/auto-complete.js?1696921811" defer></script>
+        <script src="/hugoV0/js/lunr/lunr.min.js?1696921811" defer></script>
+        <script src="/hugoV0/js/lunr/lunr.stemmer.support.min.js?1696921811" defer></script>
+        <script src="/hugoV0/js/lunr/lunr.multi.min.js?1696921811" defer></script>
+        <script src="/hugoV0/js/lunr/lunr.es.min.js?1696921811" defer></script>
+        <script src="/hugoV0/js/search.js?1696921811" defer></script>
+      </div>
+      <div id="R-homelinks" class="default-animation homelinks">
+        <ul>
+          <li><a class="padding" href="/hugoV0/es/index.html"><i class="fas fa-home"></i> Home</a></li>
+        </ul>
+        <hr class="padding">
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div id="R-topics">
+          <ul class="enlarge morespace collapsible-menu">
+          <li data-nav-id="/hugoV0/es/despliegue/index.html" class=""><a class="padding" href="/hugoV0/es/despliegue/index.html">Despliegue De Aplicaciones Web</a></li>
+          <li data-nav-id="/hugoV0/es/interfaces/index.html" class=""><a class="padding" href="/hugoV0/es/interfaces/index.html">Diseño De Interfaces Web</a></li>
+          <li data-nav-id="/hugoV0/es/cliente/index.html" class=""><a class="padding" href="/hugoV0/es/cliente/index.html">Desarrollo Web en Entorno Cliente</a></li>
+          <li data-nav-id="/hugoV0/es/servidor/index.html" class="parent "><a class="padding" href="/hugoV0/es/servidor/index.html">Desarrollo Web en Entorno Servidor</a><ul id="R-subsections-f28c0e8b217fd28b5d652cfb49eb9b46" class="morespace collapsible-menu">
+          <li data-nav-id="/hugoV0/es/servidor/shortcodes/index.html" class="active"><a class="padding" href="/hugoV0/es/servidor/shortcodes/index.html">Shortcodes</a></li>
+          <li data-nav-id="/hugoV0/es/servidor/markdown/index.html" class=""><a class="padding" href="/hugoV0/es/servidor/markdown/index.html">Markdown</a></li>
+          <li data-nav-id="/hugoV0/es/servidor/hugo/index.html" class=""><a class="padding" href="/hugoV0/es/servidor/hugo/index.html">Hugo</a></li></ul></li>
+          </ul>
+        </div>
+        <div id="R-shortcuts">
+          <div class="nav-title padding">Más</div>
+          <ul class="space">
+            <li><a class="padding" href="http://php.net">Lenguaje PHP</a></li>
+            <li><a class="padding" href="http://google.es">Google</a></li>
+          </ul>
+        </div>
+        <div class="padding footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showLangSwitch showVariantSwitch showFooter"></div>
+        <div id="R-menu-footer">
+          <hr class="padding default-animation footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showLangSwitch showVariantSwitch showFooter">
+          <div id="R-prefooter" class="footerLangSwitch footerVariantSwitch footerVisitedLinks showLangSwitch showVariantSwitch">
+            <ul>
+              <li id="R-select-language-container" class="footerLangSwitch showLangSwitch">
+                <div class="padding menu-control">
+                  <i class="fas fa-language fa-fw"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <label class="a11y-only" for="R-select-language">Idioma</label>
+                    <select id="R-select-language" onchange="location = baseUri + this.value;">
+                      <option id="R-es" value="/hugoV0/es/servidor/shortcodes/index.html" lang="es" selected>Español</option>
+                    </select>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </li>
+              <li id="R-select-variant-container" class="footerVariantSwitch showVariantSwitch">
+                <div class="padding menu-control">
+                  <i class="fas fa-paint-brush fa-fw"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <label class="a11y-only" for="R-select-variant">Tema</label>
+                    <select id="R-select-variant" onchange="window.variants && variants.changeVariant( this.value );">
+                      <option id="R-relearn-light" value="relearn-light" selected>Relearn Light</option>
+                      <option id="R-relearn-dark" value="relearn-dark">Relearn Dark</option>
+                    </select>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+                <script>window.variants && variants.markSelectedVariant();</script>
+              </li>
+              <li class="footerVisitedLinks">
+                <div class="padding menu-control">
+                  <i class="fas fa-history fa-fw"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <button onclick="clearHistory();">Borrar Historial</button>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div id="R-footer" class="footerFooter showFooter">
+	    <p>Built with <a href="https://github.com/McShelby/hugo-theme-relearn" title="love"><i class="fas fa-heart"></i></a> by <a href="https://gohugo.io/">Hugo</a></p>
+          </div>
+        </div>
+      </div>
+    </aside>
+    <script src="/hugoV0/js/clipboard.min.js?1696921811" defer></script>
+    <script src="/hugoV0/js/perfect-scrollbar.min.js?1696921811" defer></script>
+    <script src="/hugoV0/js/d3/d3-color.min.js?1696921811" defer></script>
+    <script src="/hugoV0/js/d3/d3-dispatch.min.js?1696921811" defer></script>
+    <script src="/hugoV0/js/d3/d3-drag.min.js?1696921811" defer></script>
+    <script src="/hugoV0/js/d3/d3-ease.min.js?1696921811" defer></script>
+    <script src="/hugoV0/js/d3/d3-interpolate.min.js?1696921811" defer></script>
+    <script src="/hugoV0/js/d3/d3-selection.min.js?1696921811" defer></script>
+    <script src="/hugoV0/js/d3/d3-timer.min.js?1696921811" defer></script>
+    <script src="/hugoV0/js/d3/d3-transition.min.js?1696921811" defer></script>
+    <script src="/hugoV0/js/d3/d3-zoom.min.js?1696921811" defer></script>
+    <script src="/hugoV0/js/js-yaml.min.js?1696921811" defer></script>
+    <script src="/hugoV0/js/mermaid.min.js?1696921811" defer></script>
+    <script>
+      window.themeUseMermaid = JSON.parse( null );
+    </script>
+    <script src="/hugoV0/js/theme.js?1696921811" defer></script>
+  </body>
+</html>
