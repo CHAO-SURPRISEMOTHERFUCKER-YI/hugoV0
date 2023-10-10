@@ -53,7 +53,7 @@ home = [ "HTML"]
 
 
 
-defaultContentLanguage = 'en'
+defaultContentLanguage = 'es'
 
 [languages]
 
@@ -65,14 +65,14 @@ defaultContentLanguage = 'en'
     weight = 1
     contentDir= "content/es/"
 
-    [languages.en]
+  [languages.en]
   
     title = "English"
     languageName = "English"
     weight = 2
     contentDir= "content/en/"
 
-    [languages.fr]
+  [languages.fr]
   
     title = "Francaise"
     languageName = "Francaise"
