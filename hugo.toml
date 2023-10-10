@@ -1,4 +1,6 @@
 baseURL = 'https://chao-surprisemotherfucker-yi.github.io/hugoV0/'
+canonifyURLs = true
+relativeURLs = true
 title = 'My New Hugo Site'
 theme = 'relearn'
 
@@ -26,12 +28,14 @@ theme = 'relearn'
 
 [outputs]
 
-home = [ "HTML"]
+home = [ "HTML", "RSS", "SEARCH"]
 
- [params]
+[params]
 
   editURL = "http://localhost"
   themeVariant = ["relearn-light", "relearn-dark"]
+  additionalContentLanguage = [ "en", "es", "fr"]
+
 
     [[menu.shortcuts]]
     name = "Lenguaje PHP"
@@ -68,6 +72,9 @@ defaultContentLanguageInSubdir = true
     disabled = false
     languageCode = 'es'
 
+    [languages.es.params]
+    landingPageName = "<i class='fas fa-home'></i> Casa Haha"
+
 
   [languages.en]
   
@@ -78,6 +85,8 @@ defaultContentLanguageInSubdir = true
     disabled = false
     languageCode = 'en-us'
 
+   [languages.en.params]
+    landingPageName = "<i class='fas fa-home'></i> Home Sweet Home"
 
 
   [languages.fr]
@@ -88,5 +97,9 @@ defaultContentLanguageInSubdir = true
     contentDir= "content/fr"
     disabled = false
     languageCode = 'fr'
+    
+    [languages.fr.params]
+    landingPageName = "<i class='fas fa-home'></i> Au revoir"
+    
 
 
